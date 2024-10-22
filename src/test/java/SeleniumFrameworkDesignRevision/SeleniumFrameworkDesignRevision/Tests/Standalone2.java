@@ -33,7 +33,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Standalone2 extends BaseTest {
 	//String productName = "ZARA COAT 3";
 	//String countryName = "India";
-
+//new comments for CICD
 	@Test(dataProvider ="getData",groups="Purchase")
 	public void submitOrder(HashMap<String,String> input) throws IOException {
 		// TODO Auto-generated method stub
