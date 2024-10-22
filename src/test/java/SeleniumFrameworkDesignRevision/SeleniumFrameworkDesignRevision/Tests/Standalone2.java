@@ -34,7 +34,7 @@ public class Standalone2 extends BaseTest {
 	//String productName = "ZARA COAT 3";
 	//String countryName = "India";
 //new comments for CICD
-
+//new
 //new commenbts
 	@Test(dataProvider ="getData",groups="Purchase")
 	public void submitOrder(HashMap<String,String> input) throws IOException {
